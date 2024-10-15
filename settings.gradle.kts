@@ -19,15 +19,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
     versionCatalogs {
-        // Libraries
-        create("formLibs") {
-            from(files("./library/form/form.versions.toml"))
-        }
-        create("uiLibs") {
-            from(files("./library/ui/ui.versions.toml"))
-        }
-
-
         // Dependencies
         create("camouflageLibs") {
             from(files("./gradle/catalog/camouflage.versions.toml"))
@@ -64,3 +55,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "Camouflage"
 include(":example")
+include(":library:framework:form")
+include(":library:ui:foundation")
+include(":library:ui:component")
+include(":library:ui:theme:fluent")
+include(":library:ui:theme:mantine")
+include(":library:ui:theme:material")
