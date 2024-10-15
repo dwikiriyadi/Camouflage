@@ -3,3 +3,12 @@ plugins {
     alias(androidLibs.plugins.android.application) apply false
     alias(kotlinLibs.plugins.kotlin.android) apply false
 }
+
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+    dependencies {
+        classpath("com.camouflage.convention:camouflage-convention-plugin:0.0.1")
+    }
+}

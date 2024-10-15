@@ -1,5 +1,4 @@
 pluginManagement {
-    includeBuild("convention")
     repositories {
         google {
             content {
@@ -8,6 +7,7 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
+        mavenLocal()
         mavenCentral()
         gradlePluginPortal()
     }
