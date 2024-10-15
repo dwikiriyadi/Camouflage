@@ -1,0 +1,15 @@
+[versions]
+android-gradle-plugin = "8.6.1"
+androidx-core-splashscreen = "1.0.1"
+androidx-core-ktx = "1.13.1"
+androidx-appcompat = "1.7.0"
+androidx-lifecycle = "2.8.6"
+
+[libraries]
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "androidx-core-splashscreen" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core-ktx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "android-gradle-plugin" }

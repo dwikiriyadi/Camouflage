@@ -1,0 +1,12 @@
+[plugins]
+android-application = { id = "android.application" }
+android-application-compose = { id = "android.application.compose" }
+android-library = { id = "android.convention.library" }
+android-library-compose = { id = "android.convention.library.compose" }
+android-test = { id = "android.convention.test" }
+android-hilt = { id = "android.convention.hilt" }
+android-jacoco = { id = "android.convention.jacoco" }
+android-koin = { id = "android.convention.koin" }
+android-lint = { id = "android.convention.lint" }
+library-jvm = { id = "jvm.convention" }
+library-multiplatform = { id = "multiplatform.convention" }
