@@ -1,6 +1,9 @@
+[versions]
+camouflage = "0.0.1"
+
 [plugins]
 android-application = { id = "android.application" }
-android-application-compose = { id = "android.application.compose" }
+android-application-compose = { id = "android.application.compose", version.ref= "camouflage"}
 android-library = { id = "android.convention.library" }
 android-library-compose = { id = "android.convention.library.compose" }
 android-test = { id = "android.convention.test" }

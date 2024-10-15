@@ -2,4 +2,3 @@
 compileSdk = "34"
 targetSdk = "34"
 minSdk = "27"
-versionCode = "1"
